@@ -35,7 +35,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.Miller-94:PDFiumViewer16KB:1.0.0'
+    implementation 'com.github.Miller-94:PDFiumViewer16KB:1.0.1'
 }
 ```
 
