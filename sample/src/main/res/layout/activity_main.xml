@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="assets/sample.pdf 파일을 DialogFragment로 표시합니다."
+        android:text="Open PDF file from assets"
         android:textColor="#666666"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,31 +36,9 @@
         android:layout_height="wrap_content"
         android:text="@string/open_pdf"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@id/openPdfButton2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/openPdfButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="problem.pdf"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/openPdfButton"
-        app:layout_constraintBottom_toTopOf="@id/openPdfButton3" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/openPdfButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="annotation.pdf"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/openPdfButton2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

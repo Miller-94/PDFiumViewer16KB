@@ -20,14 +20,5 @@ public class MainActivity extends AppCompatActivity {
             PdfViewerDialogFragment dialog = PdfViewerDialogFragment.newInstance("sample.pdf");
             dialog.show(getSupportFragmentManager(), "pdf_viewer");
         });
-
-        binding.openPdfButton2.setOnClickListener(v -> {
-            PdfViewerDialogFragment dialog = PdfViewerDialogFragment.newInstance("problem.pdf");
-            dialog.show(getSupportFragmentManager(), "pdf_viewer");
-        });
-        binding.openPdfButton3.setOnClickListener(v -> {
-            PdfViewerDialogFragment dialog = PdfViewerDialogFragment.newInstance("annotation.pdf");
-            dialog.show(getSupportFragmentManager(), "pdf_viewer");
-        });
     }
 }
